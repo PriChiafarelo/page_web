@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Landing pag</title>
+    <link rel="stylesheet" href="src/style/styles.css">
+    <link rel="stylesheet" href="src/style/header.css">
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-bars" id="nav_logo"> página da Juju</i>
+            <i class="fa-solid fa-desktop" id="nav_logo"> JUJU TECNOLOGIA</i>
+
             <ul id ="nav_list"> 
+                <li class="nav_item active" ><a href="#sobre">Sobre</a></li>
+                <li class="nav_item"><a href="#produtos">Produtos</a></li>
+                <li class="nav_item"><a href="#clientes">Clientes</a></li>
+                <li class="nav_item"><a href="#servicos">Serviços</a></li>
+                <li class="nav_item"><a href="#contato">Contato</a></li>                
+            </ul>
+
+            <button class="btn-default">Peça aqui</button>
+
+            <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+        <div id="mobile_menu"> 
+            <ul id ="mobile_nav_list"> 
                 <li class="nav_item"><a href="#sobre">Sobre</a></li>
                 <li class="nav_item"><a href="#produtos">Produtos</a></li>
                 <li class="nav_item"><a href="#clientes">Clientes</a></li>
@@ -18,9 +35,9 @@
                 <li class="nav_item"><a href="#contato">Contato</a></li>
                 <li class="nav_item"><a href="#faq">FAQ</a></li>
             </ul>
-
             <button class="btn-default">Peça aqui</button>
-        </nav>
+        </div>
     </header>
+
 </body>
 </html>
